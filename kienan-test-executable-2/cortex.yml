@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: My Service
+  description: This is my cool service.
+  x-cortex-tag: kienan-test-executable-2
+  x-cortex-type: service
+  x-cortex-git:
+    github:
+      repository: kienan/cookiecutter-cortex-plugin
+  x-cortex-issues:
+    jira:
+      projects:
+      - TEST
